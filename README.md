@@ -312,7 +312,7 @@ param_grid = {
 |  | scikit-learn | 42 | N/A |
 
 ## Supplementary Figures Guide
-
+*Supplementary Figures can be found in result directory*
 *Supplementary Figure S1. Quality control metrics across body sites*
 - Panel A: Read depth distribution by body site
 - Panel B: Taxonomic detection rates before/after filtering
