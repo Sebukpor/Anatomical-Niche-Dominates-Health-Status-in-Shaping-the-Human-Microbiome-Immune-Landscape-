@@ -54,9 +54,9 @@ from skbio.stats.composition import clr
 warnings.filterwarnings("ignore")
 
 # ===================== CONFIGURATION =====================
-DATA_PATH = "/content/merged_microbiome_cytokines.csv"
+DATA_PATH = "path_to_your_merged_microbiome_cytokine_data"
 ID_COL = "SampleID"
-OUTPUT_DIR = "/content/16s_rRNA_analysis_outputs_enhanced"
+OUTPUT_DIR = "output_path"
 
 RANDOM_STATE = 42
 np.random.seed(RANDOM_STATE)
