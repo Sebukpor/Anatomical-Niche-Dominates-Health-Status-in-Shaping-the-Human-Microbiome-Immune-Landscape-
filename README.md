@@ -17,6 +17,8 @@ The genomic data used in this study originates from the **Zindi MPEG-G Compressi
 - **Data** (Anonymized & Processed):
   - [`cytokine_profiles.csv`](cytokine_profiles.csv): High-resolution cytokine measurements (~66 analytes) across samples.
   - [`Train.csv`](Train.csv): Merged IDs of training dataset for microbiome, cytokines, and metadata.
+  - [`Train_Subjects.csv`](Train_Subjects.csv): Subject-level metadata.
+
  
 
 ## Reproducibility Package Contents
