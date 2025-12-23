@@ -1,6 +1,21 @@
 # Multi-Omics-Atlas-of-Human-Microbiome-Immune-Interactions
 Multi-Omics Atlas of Human Microbiome-Immune Interactions: Site-Specific Signatures and Conserved Response Patterns Across Gut, Oral, Nasal, and Skin Niches
 
+## Data Sources
+
+The genomic data used in this study originates from the **Zindi MPEG-G Compression Challenge**, compressed MPEG-G files which were later decompressed to FASTQ for downstream task:
+
+- **MPEG-G compressed genomic data**:  
+  [Kaggle Dataset: maestroalert/trainfiles](https://www.kaggle.com/datasets/maestroalert/trainfiles)
+
+- **Decompressed FASTQ files**:  
+  [Kaggle Dataset: divinesebukpor/trainfiles](https://www.kaggle.com/datasets/divinesebukpor/trainfiles)
+
+- **Data** (Anonymized & Processed):
+  - [`cytokine_profiles.csv`](cytokine_profiles.csv): High-resolution cytokine measurements (~66 analytes) across samples.
+  - [`Train.csv`](Train.csv): Merged IDs of training dataset for microbiome, cytokines, and metadata.
+  - [`Train_Subjects.csv`](Train_Subjects.csv): Subject-level metadata.
+
 # Supplementary Materials
 
 ## Supplementary Methods
