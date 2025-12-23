@@ -1,0 +1,40 @@
+# Core data processing
+pandas==2.1.4
+numpy==1.26.4
+
+# Statistical analysis and microbiome-specific tools
+scikit-bio==0.5.9
+scipy==1.12.0
+statsmodels==0.14.1
+
+# Machine learning
+scikit-learn==1.5.0
+imbalanced-learn==0.11.0
+
+# Dimensionality reduction
+umap-learn==0.5.5
+
+# Visualization
+seaborn==0.13.2
+matplotlib==3.8.3
+networkx==3.3
+plotly==5.20.0
+
+# Data handling and utility packages
+joblib==1.3.2
+tqdm==4.66.2
+openpyxl==3.1.2
+
+# Environment management
+python-dotenv==1.0.1
+
+# Note: The following tools are required but must be installed separately:
+# - Kraken2 (v2.1.3) and Bracken (v2.9) for taxonomic classification
+# - FastQC (v0.11.9) for quality control
+# - Docker for MPEG-G decompression workflow
+# - SILVA 16S rRNA database (SILVA138) for taxonomy assignment
+
+# System requirements:
+# - Python 3.12.3
+# - Minimum 16 CPU cores, 64 GB RAM for full pipeline execution
+# ~200 GB storage space for processed data and results
