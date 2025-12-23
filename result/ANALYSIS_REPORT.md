@@ -10,7 +10,7 @@ Generated: 2025-12-21T10:17:11.835331+00:00 UTC
 5. **Duplicate Handling**: **All rows preserved** — SampleID made unique via suffixes to retain biological replicates
 
 ## Data Overview
-- Total samples: 1813
+- Total samples: 1885
 - Sample types: Stool, Mouth, Nasal, Skin
 - Microbes: 231
 - Cytokines: 62
