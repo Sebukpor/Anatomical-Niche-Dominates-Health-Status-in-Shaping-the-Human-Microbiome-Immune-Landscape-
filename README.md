@@ -18,6 +18,36 @@ The genomic data used in this study originates from the **Zindi MPEG-G Compressi
   - [`cytokine_profiles.csv`](cytokine_profiles.csv): High-resolution cytokine measurements (~66 analytes) across samples.
   - [`Train.csv`](Train.csv): Merged IDs of training dataset for microbiome, cytokines, and metadata.
   - [`Train_Subjects.csv`](Train_Subjects.csv): Subject-level metadata.
+ 
+
+## Reproducibility Package Contents
+
+The complete reproducibility package includes:
+
+1. `code/` directory containing:
+   - `analysis.py`: End-to-end analysis pipeline
+   - `microbime_cytokine_preprocessing_pipeline.py`: Data cleaning, merging and normalization functions for cytokine and microbiome
+   - `decompressing_mpegg_to_fastq.py`: Decompressing MPEG-G compressed file to fastq
+   - `taxonomic_classification.py`: Taxonomic Classification of 16S rRNA Amplicons Using Kraken2 + Bracken (SILVA 138 database)
+   
+
+
+2. `results/` directory containing:
+   - `correlation_networks/`: Network files for visualization
+   - `model_outputs/`: Saved model objects and predictions
+   - `statistical_results/`: Complete test results
+   - `figures/`: All generated figures in PDF/PNG formats
+
+3. Environment specifications:
+   - `environment.yml`: Conda environment configuration
+   - `requirements.txt`: Python package dependencies
+   - `Dockerfile`: Containerized execution environment
+
+5. Execution documentation:
+   - `README.md`: Setup and execution instructions
+
+All code includes comprehensive docstrings following NumPy format standards and unit tests covering core functionality. The pipeline can be executed on standard computing hardware (16 CPU cores, 64GB RAM) with an estimated runtime of 12-24 hours for complete re-analysis.
+
 
 # Supplementary Materials
 
@@ -300,38 +330,3 @@ param_grid = {
 *Supplementary Figure S4. Permutation testing validation of correlation thresholds*
 - Panel A-D: Null distribution of correlation coefficients by body site
 - Dashed lines indicate 95th percentile thresholds used in main analysis
-
-## Reproducibility Package Contents
-
-The complete reproducibility package includes:
-
-1. `code/` directory containing:
-   - `pipeline_main.py`: End-to-end analysis pipeline
-   - `preprocessing.py`: Data cleaning and normalization functions
-   - `statistical_analysis.py`: Correlation and differential abundance methods
-   - `ml_modeling.py`: Machine learning implementation
-   - `visualization.py`: Plotting functions
-
-2. `data/` directory containing:
-   - `metadata_full.csv`: Complete sample metadata
-   - `microbiome_genus_clr.csv`: CLR-transformed genus abundances
-   - `cytokines_log1p.csv`: Log-transformed cytokine measurements
-   - `processed_features.csv`: Unified feature matrix
-
-3. `results/` directory containing:
-   - `correlation_networks/`: Network files for visualization
-   - `model_outputs/`: Saved model objects and predictions
-   - `statistical_results/`: Complete test results
-   - `figures/`: All generated figures in PDF/PNG formats
-
-4. Environment specifications:
-   - `environment.yml`: Conda environment configuration
-   - `requirements.txt`: Python package dependencies
-   - `Dockerfile`: Containerized execution environment
-
-5. Execution documentation:
-   - `README.md`: Setup and execution instructions
-   - `run_pipeline.sh`: Command-line execution script
-   - `logs/`: Timestamped execution logs with resource monitoring
-
-All code includes comprehensive docstrings following NumPy format standards and unit tests covering core functionality. The pipeline can be executed on standard computing hardware (16 CPU cores, 64GB RAM) with an estimated runtime of 12-24 hours for complete re-analysis.
