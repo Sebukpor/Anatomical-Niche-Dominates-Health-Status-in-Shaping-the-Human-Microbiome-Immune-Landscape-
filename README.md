@@ -38,9 +38,9 @@ The complete reproducibility package includes:
    - `Stool/`: All generated figures in PDF/PNG formats, csv files etc.
    - `Mouth/`: All generated figures in PDF/PNG formats, csv files etc.
    - `Skin/`: All generated figures in PDF/PNG formats, csv files etc.
-   - 'UMAP Visualisations'
-   - 'Permanova'
-   - Analysis Report.md'
+   - `UMAP Visualisations`
+   - `Combined Permanova`
+   - `Analysis Report.md`
 
 3. Environment specifications:
    - `environment.yml`: Conda environment configuration
