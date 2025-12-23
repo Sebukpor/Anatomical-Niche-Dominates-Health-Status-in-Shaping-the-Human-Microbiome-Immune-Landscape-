@@ -1,0 +1,45 @@
+============================================================
+MACHINE LEARNING EVALUATION REPORT
+============================================================
+Best Parameters: {'max_depth': None, 'min_samples_split': 2, 'n_estimators': 200}
+BASELINE (No SMOTE):
+              precision    recall  f1-score   support
+
+         Ant       0.00      0.00      0.00         1
+       Fiber       0.00      0.00      0.00         2
+     Healthy       0.61      1.00      0.75        43
+         Imz       0.00      0.00      0.00         8
+       Imz_L       0.00      0.00      0.00         2
+   Infection       0.50      0.11      0.18         9
+ Infection_L       0.00      0.00      0.00         6
+ Post-Travel       0.00      0.00      0.00         1
+ Weight-gain       0.00      0.00      0.00         1
+ Weight-loss       0.00      0.00      0.00         1
+
+    accuracy                           0.59        74
+   macro avg       0.11      0.11      0.09        74
+weighted avg       0.41      0.59      0.46        74
+
+Balanced Accuracy: 0.111
+F1 Macro: 0.094
+
+WITH SMOTE:
+              precision    recall  f1-score   support
+
+         Ant       1.00      1.00      1.00        43
+       Fiber       0.95      1.00      0.98        42
+     Healthy       0.95      0.81      0.88        43
+         Imz       0.98      1.00      0.99        43
+       Imz_L       1.00      1.00      1.00        43
+   Infection       0.95      0.95      0.95        43
+ Infection_L       0.96      1.00      0.98        43
+ Post-Travel       1.00      1.00      1.00        43
+ Weight-gain       1.00      1.00      1.00        42
+ Weight-loss       0.98      1.00      0.99        43
+
+    accuracy                           0.98       428
+   macro avg       0.98      0.98      0.98       428
+weighted avg       0.98      0.98      0.98       428
+
+Balanced Accuracy: 0.977
+F1 Macro: 0.976
