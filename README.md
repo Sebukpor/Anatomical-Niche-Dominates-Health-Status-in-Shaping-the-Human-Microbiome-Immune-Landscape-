@@ -33,11 +33,14 @@ The complete reproducibility package includes:
    
 
 
-2. `results/` directory containing:
-   - `correlation_networks/`: Network files for visualization
-   - `model_outputs/`: Saved model objects and predictions
-   - `statistical_results/`: Complete test results
-   - `figures/`: All generated figures in PDF/PNG formats
+2. `result/` directory containing:
+   - `Nasal/`: All generated figures in PDF/PNG formats, csv files etc.
+   - `Stool/`: All generated figures in PDF/PNG formats, csv files etc.
+   - `Mouth/`: All generated figures in PDF/PNG formats, csv files etc.
+   - `Skin/`: All generated figures in PDF/PNG formats, csv files etc.
+   - 'UMAP Visualisations'
+   - 'Permanova'
+   - Analysis Report.md'
 
 3. Environment specifications:
    - `environment.yml`: Conda environment configuration
