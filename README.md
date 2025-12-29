@@ -243,55 +243,6 @@ param_grid = {
 
 ### Supplementary Table S3. Complete Machine Learning Performance Metrics
 
-| Site | Model Type | Class | Precision | Recall | F1-Score | Support |
-|------|------------|-------|-----------|--------|----------|---------|
-| Stool | SMOTE | Healthy | 0.978 | 0.981 | 0.979 | 273 |
-|  |  | Fiber | 0.967 | 0.965 | 0.966 | 94 |
-|  |  | Infection | 0.969 | 0.962 | 0.965 | 78 |
-|  |  | Stress | 0.963 | 0.965 | 0.964 | 65 |
-|  |  | Colonoscopy | 0.975 | 0.973 | 0.974 | 42 |
-|  |  | Allergy | 0.960 | 0.958 | 0.959 | 38 |
-|  | Baseline | Healthy | 0.245 | 0.258 | 0.251 | 273 |
-|  |  | Fiber | 0.220 | 0.215 | 0.217 | 94 |
-|  |  | Infection | 0.228 | 0.220 | 0.224 | 78 |
-|  |  | Stress | 0.215 | 0.222 | 0.218 | 65 |
-|  |  | Colonoscopy | 0.230 | 0.225 | 0.227 | 42 |
-|  |  | Allergy | 0.220 | 0.218 | 0.219 | 38 |
-| Nasal | SMOTE | Healthy | 0.975 | 0.977 | 0.976 | 235 |
-|  |  | Fiber | 0.964 | 0.962 | 0.963 | 87 |
-|  |  | Infection | 0.965 | 0.960 | 0.962 | 92 |
-|  |  | Stress | 0.958 | 0.960 | 0.959 | 58 |
-|  |  | Colonoscopy | 0.967 | 0.964 | 0.965 | 35 |
-|  |  | Allergy | 0.962 | 0.960 | 0.961 | 42 |
-|  | Baseline | Healthy | 0.215 | 0.228 | 0.221 | 235 |
-|  |  | Fiber | 0.205 | 0.200 | 0.202 | 87 |
-|  |  | Infection | 0.218 | 0.210 | 0.214 | 92 |
-|  |  | Stress | 0.202 | 0.210 | 0.206 | 58 |
-|  |  | Colonoscopy | 0.210 | 0.205 | 0.207 | 35 |
-|  |  | Allergy | 0.208 | 0.205 | 0.206 | 42 |
-| Mouth | SMOTE | Healthy | 0.972 | 0.974 | 0.973 | 195 |
-|  |  | Fiber | 0.958 | 0.956 | 0.957 | 95 |
-|  |  | Infection | 0.955 | 0.950 | 0.952 | 84 |
-|  |  | Weight Gain | 0.958 | 0.955 | 0.956 | 68 |
-|  |  | Colonoscopy | 0.960 | 0.957 | 0.958 | 41 |
-|  | Baseline | Healthy | 0.235 | 0.248 | 0.241 | 195 |
-|  |  | Fiber | 0.225 | 0.220 | 0.222 | 95 |
-|  |  | Infection | 0.230 | 0.225 | 0.227 | 84 |
-|  |  | Weight Gain | 0.222 | 0.220 | 0.221 | 68 |
-|  |  | Colonoscopy | 0.225 | 0.222 | 0.223 | 41 |
-| Skin | SMOTE | Healthy | 0.982 | 0.984 | 0.983 | 178 |
-|  |  | Fiber | 0.975 | 0.973 | 0.974 | 92 |
-|  |  | Infection | 0.970 | 0.968 | 0.969 | 72 |
-|  |  | Stress | 0.967 | 0.965 | 0.966 | 55 |
-|  |  | Antibiotics | 0.972 | 0.970 | 0.971 | 38 |
-|  | Baseline | Healthy | 0.110 | 0.125 | 0.117 | 178 |
-|  |  | Fiber | 0.105 | 0.100 | 0.102 | 92 |
-|  |  | Infection | 0.112 | 0.110 | 0.111 | 72 |
-|  |  | Stress | 0.102 | 0.100 | 0.101 | 55 |
-|  |  | Antibiotics | 0.105 | 0.102 | 0.103 | 38 |
-
-### Supplementary Table S4. Software Versions and Parameters
-
 | Component | Software/Library | Version | Parameters/Settings |
 |-----------|------------------|---------|---------------------|
 | MPEG-G Decompression | Genie | v1.0.3 | --threads 16 |
