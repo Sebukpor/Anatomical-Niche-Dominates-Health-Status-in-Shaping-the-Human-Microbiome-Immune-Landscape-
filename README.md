@@ -33,7 +33,7 @@ The complete reproducibility package includes:
    
 
 
-2. `result/` directory containing:
+2. `results/` directory containing:
    - `Nasal/`: All generated figures in PDF/PNG formats, csv files etc.
    - `Stool/`: All generated figures in PDF/PNG formats, csv files etc.
    - `Mouth/`: All generated figures in PDF/PNG formats, csv files etc.
