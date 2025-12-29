@@ -1,0 +1,10 @@
+Microbe,Mean_Diff,P-value,Test_Statistic,Distributions_Similar,Shapes_Similar,Recommendation,Corrected_P_value
+Acinetobacter,-0.015980450135388003,3.774658014973413e-05,4409.0,False,False,Consider permutation test instead of Mann-Whitney,0.0028309935112300596
+Moraxella,-0.048649462960704354,9.883549856169431e-05,4551.0,False,False,Consider permutation test instead of Mann-Whitney,0.0037063311960635367
+Staphylococcus,0.08498261726872186,0.0007351484749225164,9091.0,False,False,Consider permutation test instead of Mann-Whitney,0.014356477459368315
+Varibaculum,0.00023463737767511172,0.0007656787978329769,9084.0,False,False,Consider permutation test instead of Mann-Whitney,0.014356477459368315
+Pseudomonas,-0.012280977281291414,0.0013073360473796678,4975.0,False,False,Consider permutation test instead of Mann-Whitney,0.019610040710695015
+Actinomyces,0.0010483674885789847,0.002342356159690101,8883.0,False,False,Consider permutation test instead of Mann-Whitney,0.025096673139536795
+Bacteroides,-0.005234289491150104,0.002197058014185165,5070.0,False,False,Consider permutation test instead of Mann-Whitney,0.025096673139536795
+Campylobacter,-0.0014685661977819717,0.00396118250211432,5183.0,False,False,Consider permutation test instead of Mann-Whitney,0.033009854184286
+Cutibacterium,0.03014212909264251,0.0038814032676246072,8786.0,False,False,Consider permutation test instead of Mann-Whitney,0.033009854184286

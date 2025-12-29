@@ -1,0 +1,77 @@
+Microbe,Mean_Diff,P-value,Test_Statistic,Distributions_Similar,Shapes_Similar,Recommendation,Corrected_P_value
+Agathobacter,0.004428193576550325,0.22790715264306893,8212.0,True,True,Mann-Whitney assumptions satisfied,0.8222937028247564
+Akkermansia,-0.01017517534411976,0.27619709859327934,6758.0,True,True,Mann-Whitney assumptions satisfied,0.8222937028247564
+Alistipes,-0.020857458866252787,0.027312634472119363,6050.0,True,False,Consider permutation test instead of Mann-Whitney,0.28343065350527685
+Alloprevotella,0.0007630822593307383,0.49858723929251947,7877.0,True,True,Mann-Whitney assumptions satisfied,0.8222937028247564
+Anaerostipes,7.114092018681902e-05,0.4876281526451357,7008.0,True,True,Mann-Whitney assumptions satisfied,0.8222937028247564
+Anaerotruncus,-0.0002148418016437166,0.5809808928171634,7098.0,True,True,Mann-Whitney assumptions satisfied,0.8331851923038814
+Bacillus,0.0005129994209028603,0.49758557666948566,7878.0,True,True,Mann-Whitney assumptions satisfied,0.8222937028247564
+Bacteroides,-0.033299586803476944,0.35023466515134694,6856.0,True,True,Mann-Whitney assumptions satisfied,0.8222937028247564
+Barnesiella,-0.008768039798532546,0.0020133949755781395,5492.0,False,False,Consider permutation test instead of Mann-Whitney,0.07898470851692063
+Bilophila,0.0002182180483881054,0.9326663889386662,7502.0,True,True,Mann-Whitney assumptions satisfied,0.9527388106465815
+Blautia,0.004473758737164199,0.6509384076547929,7735.0,True,True,Mann-Whitney assumptions satisfied,0.8331851923038814
+Butyricicoccus,3.845671839197273e-06,0.33735605343325203,6840.0,True,True,Mann-Whitney assumptions satisfied,0.8222937028247564
+Butyricimonas,-6.657284454010233e-05,0.9402027736643896,7400.0,True,True,Mann-Whitney assumptions satisfied,0.9527388106465815
+Butyrivibrio,-0.001020837656278821,0.5648575542393013,7083.0,True,True,Mann-Whitney assumptions satisfied,0.8331851923038814
+CAG-352,-0.0006180360280787058,0.029834805632134406,6072.0,True,False,Consider permutation test instead of Mann-Whitney,0.28343065350527685
+Candidatus Soleaferrea,-0.00022531815795244798,0.3968420055749433,6911.0,True,True,Mann-Whitney assumptions satisfied,0.8222937028247564
+Christensenellaceae R-7 group,0.003751783574630463,0.6328444291949943,7145.0,True,True,Mann-Whitney assumptions satisfied,0.8331851923038814
+Clostridium sensu stricto 1,-0.000492194885528825,0.022533907833606103,6003.0,False,False,Consider permutation test instead of Mann-Whitney,0.28343065350527685
+Colidextribacter,0.0013615424924481648,0.009187567168445255,9098.0,False,False,Consider permutation test instead of Mann-Whitney,0.23275170160061315
+Collinsella,0.0030558063559885805,0.0497351783769064,8691.0,False,True,Consider permutation test instead of Mann-Whitney,0.37798735566448866
+Coprobacter,0.0005638237126584029,0.8938392881062138,7363.0,True,True,Mann-Whitney assumptions satisfied,0.9434970263343369
+Coprococcus,-0.00027511316606069515,0.3389490257147011,6842.0,True,True,Mann-Whitney assumptions satisfied,0.8222937028247564
+Dialister,-0.00024618749755616243,0.7889417034559171,7278.0,True,True,Mann-Whitney assumptions satisfied,0.8940100033015072
+Dorea,0.0007441069907935319,0.6050104688266296,7776.0,True,True,Mann-Whitney assumptions satisfied,0.8331851923038814
+Erysipelotrichaceae UCG-003,0.00014410530757302982,0.3057633828866122,8097.0,True,True,Mann-Whitney assumptions satisfied,0.8222937028247564
+Escherichia-Shigella,-0.002011999951668597,0.3829122495580016,6895.0,True,True,Mann-Whitney assumptions satisfied,0.8222937028247564
+Faecalibacterium,0.016235654105679953,0.2631793835004381,8157.0,True,True,Mann-Whitney assumptions satisfied,0.8222937028247564
+Family XIII AD3011 group,-7.569363343397448e-05,0.018187029731250852,5952.0,False,False,Consider permutation test instead of Mann-Whitney,0.27644285191501294
+Frisingicoccus,-9.246532919505437e-05,0.38550100622958927,6898.0,True,True,Mann-Whitney assumptions satisfied,0.8222937028247564
+Fusicatenibacter,-0.00035900242218700994,0.45841209296762897,6978.0,True,True,Mann-Whitney assumptions satisfied,0.8222937028247564
+GCA-900066575,0.000327065767103743,0.5500059960396502,7827.0,True,True,Mann-Whitney assumptions satisfied,0.8331851923038814
+Incertae Sedis,0.0008423178966034776,0.8342512232900576,7581.0,True,True,Mann-Whitney assumptions satisfied,0.9124561811557561
+Intestinimonas,5.704997400215279e-05,0.5301630452422772,7846.0,True,True,Mann-Whitney assumptions satisfied,0.8222937028247564
+Klebsiella,0.0007391064973819583,0.5106903400403537,7031.0,True,True,Mann-Whitney assumptions satisfied,0.8222937028247564
+Lachnoclostridium,0.0016024598710465566,0.6429961508309383,7742.0,True,True,Mann-Whitney assumptions satisfied,0.8331851923038814
+Lachnospira,0.0016981889131467733,0.42928179143487444,7949.0,True,True,Mann-Whitney assumptions satisfied,0.8222937028247564
+Lachnospiraceae FCS020 group,0.0006813776335637596,0.1285007014433963,8411.0,True,True,Mann-Whitney assumptions satisfied,0.7062348801760099
+Lachnospiraceae ND3007 group,-0.00028702996005312105,0.47387040357635757,6994.0,True,True,Mann-Whitney assumptions satisfied,0.8222937028247564
+Lachnospiraceae NK3A20 group,8.3480942365288e-05,0.16628980298686724,8325.0,True,True,Mann-Whitney assumptions satisfied,0.7434132368824653
+Lachnospiraceae NK4A136 group,0.0005720939423867685,0.6577777833978011,7167.0,True,True,Mann-Whitney assumptions satisfied,0.8331851923038814
+Lachnospiraceae UCG-001,0.0011873355357629799,0.5178207490234819,7858.0,True,True,Mann-Whitney assumptions satisfied,0.8222937028247564
+Lachnospiraceae UCG-004,0.0008687649156507342,0.39245645981023536,7990.0,True,True,Mann-Whitney assumptions satisfied,0.8222937028247564
+Lachnospiraceae UCG-008,0.0009692060265389804,0.7804443905890007,7625.0,True,True,Mann-Whitney assumptions satisfied,0.8940100033015072
+Lactobacillus,0.000242775040956679,0.8404201668539859,7320.0,True,True,Mann-Whitney assumptions satisfied,0.9124561811557561
+Marvinbryantia,0.0004947756643175907,0.07601316623060635,8572.0,True,True,Mann-Whitney assumptions satisfied,0.4814167194605069
+Monoglobus,-0.0005158752736297849,0.32323632166250416,6822.0,True,True,Mann-Whitney assumptions satisfied,0.8222937028247564
+NK4A214 group,-0.00721049994407587,0.9615827280767805,7417.0,True,True,Mann-Whitney assumptions satisfied,0.9615827280767805
+Negativibacillus,-5.4473787543697335e-05,0.6249960593009853,7758.0,True,True,Mann-Whitney assumptions satisfied,0.8331851923038814
+Odoribacter,-0.0004412810479334393,0.0020785449609715956,5498.0,False,False,Consider permutation test instead of Mann-Whitney,0.07898470851692063
+Oscillibacter,0.002568153524171943,0.01427662033331922,9000.0,False,False,Consider permutation test instead of Mann-Whitney,0.2712557863330652
+Oscillospira,0.0004313929362264639,0.32401049735939735,8073.0,True,True,Mann-Whitney assumptions satisfied,0.8222937028247564
+Oxalobacter,-0.00011722082594134724,0.0401451202621926,6148.0,True,False,Consider permutation test instead of Mann-Whitney,0.33900323776962643
+Parabacteroides,0.005258924920971237,0.29909988377917396,8106.0,True,True,Mann-Whitney assumptions satisfied,0.8222937028247564
+Paraprevotella,0.0009096353145931525,0.5301630452422772,7050.0,True,True,Mann-Whitney assumptions satisfied,0.8222937028247564
+Parasutterella,0.010818366906214287,0.05490914139330027,8664.0,False,True,Consider permutation test instead of Mann-Whitney,0.37937224962643823
+Phascolarctobacterium,0.0023918667172464626,0.2755011968698108,8139.0,True,True,Mann-Whitney assumptions satisfied,0.8222937028247564
+Porphyromonas,8.593270632701363e-05,0.6982312996203597,7202.0,True,True,Mann-Whitney assumptions satisfied,0.855896431792699
+Prevotella,0.00744839215081558,0.6566358762740857,7166.0,True,True,Mann-Whitney assumptions satisfied,0.8331851923038814
+Prevotellaceae UCG-001,7.294374362576635e-05,0.5056287907631799,7870.0,True,True,Mann-Whitney assumptions satisfied,0.8222937028247564
+Prevotellaceae UCG-003,8.023147317981518e-05,0.8751371194445892,7548.0,True,True,Mann-Whitney assumptions satisfied,0.936766494053363
+Prevotellaceae UCG-004,-0.00025242402819823607,0.33815193716987546,6841.0,True,True,Mann-Whitney assumptions satisfied,0.8222937028247564
+Rikenellaceae RC9 gut group,0.005780440877909908,0.7347965882012379,7663.0,True,True,Mann-Whitney assumptions satisfied,0.886421281004668
+Romboutsia,-0.002266833505785179,0.1300958989797913,6489.0,True,True,Mann-Whitney assumptions satisfied,0.7062348801760099
+Roseburia,0.005906062440074487,0.23281713755862254,8204.0,True,True,Mann-Whitney assumptions satisfied,0.8222937028247564
+Ruminococcus,-0.006808363572034858,0.1823061891849047,6603.0,True,True,Mann-Whitney assumptions satisfied,0.7697372432251532
+Staphylococcus,-8.897299392854384e-05,0.9301555677949884,7392.0,True,True,Mann-Whitney assumptions satisfied,0.9527388106465815
+Streptococcus,0.00037805658635098826,0.45745542916792614,7919.0,True,True,Mann-Whitney assumptions satisfied,0.8222937028247564
+Subdoligranulum,-0.0037820940878315577,0.46032878212164086,6980.0,True,True,Mann-Whitney assumptions satisfied,0.8222937028247564
+Sutterella,0.0018931897319414154,0.2260850647418633,6681.0,True,True,Mann-Whitney assumptions satisfied,0.8222937028247564
+Tyzzerella,0.0005214900402306084,0.7999036871645064,7609.0,True,True,Mann-Whitney assumptions satisfied,0.8940100033015072
+UCG-002,0.0036159400752401073,0.5831468418701243,7796.0,True,True,Mann-Whitney assumptions satisfied,0.8331851923038814
+UCG-003,0.000522108128090149,0.7768106324167868,7268.0,True,True,Mann-Whitney assumptions satisfied,0.8940100033015072
+UCG-005,0.0025897343105612397,0.6842575116082794,7706.0,True,True,Mann-Whitney assumptions satisfied,0.8525175554463809
+UCG-009,-0.0006872422580864023,0.7467260389725479,7243.0,True,True,Mann-Whitney assumptions satisfied,0.8867371712799006
+Veillonella,0.0011432195216663772,0.15962499034371658,8339.0,True,True,Mann-Whitney assumptions satisfied,0.7434132368824653
+Victivallis,-0.0004743892150782514,0.14602621861353327,6527.0,True,True,Mann-Whitney assumptions satisfied,0.7398661743085685

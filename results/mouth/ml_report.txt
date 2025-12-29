@@ -1,0 +1,39 @@
+============================================================
+MACHINE LEARNING EVALUATION REPORT (BINARY: Healthy vs Clinical, WITH SMOTE)
+============================================================
+
+RandomForest Best Parameters: {'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': 'balanced', 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 5, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 100, 'n_jobs': -1, 'oob_score': False, 'random_state': 42, 'verbose': 0, 'warm_start': False}
+              precision    recall  f1-score   support
+
+     Healthy       0.74      0.88      0.80        51
+    Clinical       0.79      0.58      0.67        38
+
+    accuracy                           0.75        89
+   macro avg       0.76      0.73      0.74        89
+weighted avg       0.76      0.75      0.75        89
+Balanced Accuracy: 0.731
+F1 Macro: 0.735
+
+XGBoost Best Parameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': None, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': 'mlogloss', 'feature_types': None, 'feature_weights': None, 'gamma': None, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.1, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 6, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 100, 'n_jobs': -1, 'num_parallel_tree': None, 'random_state': 42, 'reg_alpha': None, 'reg_lambda': None, 'sampling_method': None, 'scale_pos_weight': None, 'subsample': None, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+              precision    recall  f1-score   support
+
+     Healthy       0.72      0.80      0.76        51
+    Clinical       0.69      0.58      0.63        38
+
+    accuracy                           0.71        89
+   macro avg       0.70      0.69      0.69        89
+weighted avg       0.71      0.71      0.70        89
+Balanced Accuracy: 0.691
+F1 Macro: 0.694
+
+MLP Best Parameters: {'activation': 'relu', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': False, 'epsilon': 1e-08, 'hidden_layer_sizes': (100,), 'learning_rate': 'constant', 'learning_rate_init': 0.001, 'max_fun': 15000, 'max_iter': 300, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': 42, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+              precision    recall  f1-score   support
+
+     Healthy       0.77      0.80      0.79        51
+    Clinical       0.72      0.68      0.70        38
+
+    accuracy                           0.75        89
+   macro avg       0.75      0.74      0.75        89
+weighted avg       0.75      0.75      0.75        89
+Balanced Accuracy: 0.744
+F1 Macro: 0.746
