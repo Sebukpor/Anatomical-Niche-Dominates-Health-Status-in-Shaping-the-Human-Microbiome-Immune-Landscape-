@@ -11,7 +11,22 @@ The genomic data used in this study originates from the **Zindi MPEG-G Compressi
 - **Decompressed FASTQ files**:  
   [Kaggle Dataset: divinesebukpor/trainfiles](https://www.kaggle.com/datasets/divinesebukpor/trainfiles)
   
-  [DOI](https://doi.org/10.34740/kaggle/dsv/12310273)
+- **DOI**:
+```
+  https://doi.org/10.34740/kaggle/dsv/12310273
+```
+
+- **Cite**:
+```
+@misc{divine_sebukpor_2025,
+	title={Trainfiles},
+	url={https://www.kaggle.com/dsv/12310273},
+	DOI={10.34740/KAGGLE/DSV/12310273},
+	publisher={Kaggle},
+	author={Divine Sebukpor},
+	year={2025}
+}
+```
    
 
 - **Data** (Anonymized & Processed):
