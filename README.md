@@ -1,5 +1,34 @@
 # Anatomical Niche Dominates Health Status in Shaping the Human Microbiome-Immune Landscape 
-Multi-Omics Atlas of Human Microbiome-Immune Interactions: Site-Specific Signatures and Conserved Response Patterns Across Gut(stool), Oral(mouth), Nasal, and Skin Niches
+Abstract 
+The human microbiome engages in dynamic, bidirectional interactions with the host immune 
+system across diverse anatomical niches, yet the relative influence of anatomical context versus 
+health status on microbial–immune organization remains incompletely resolved. Here, we 
+analyzed a large-scale, multi-site dataset comprising 1,813 samples from four body habitats 
+(stool, oral, nasal, and skin), integrating 16S rRNA gene sequencing with 62-plex cytokine 
+profiling. Using compositional data analysis with Bayesian–multiplicative zero replacement, 
+permutation-derived correlation thresholds, and machine-learning–based classification, we 
+quantified the determinants of microbiome immune architecture across sites and clinical states. 
+Anatomical site emerged as the dominant driver of microbial–immune variation, explaining 
+substantially more variance than health status (PERMANOVA 𝑅2 ≈ 0.28vs. 0.08). Health-state 
+classification performance exhibited a clear site-dependent gradient (stool > oral > nasal > skin), 
+with peak accuracies achieved by XGBoost for stool (74.7%) and skin (64.0%), multilayer 
+perceptron models for oral samples (75.3%), and Random Forest models for nasal samples 
+(69.3%). Correlation network analysis revealed highly site-specific immune–microbial 
+architectures: stool microbiomes were characterized by broad Phascolarctobacterium 
+engagement with multiple inflammatory mediators (SDF1A 𝑟 = 0.380, IL1A 𝑟 = 0.360, IL8 𝑟 =
+0.353); nasal habitats displayed a LEPTIN-centered bipolar regulatory axis involving Actinomyces 
+(𝑟 = 0.389) and Corynebacterium (𝑟 = −0.383); skin microbiomes showed GMCSF-associated 
+positive relationships with Bacillus (𝑟 = 0.308) and Staphylococcus (𝑟 = 0.280); and oral sites 
+harbored the strongest individual association observed across all habitats, a negative correlation 
+between Butyrivibrio and PDGFBB (𝑟 = −0.437, 𝑝 = 3.46 × 10−22). 
+Differential abundance analyses identified Barnesiella and Odoribacter depletion in stool
+associated clinical states and Staphylococcus expansion in nasal dysbiosis, whereas oral and skin 
+sites exhibited minimal taxonomic shifts despite pronounced cytokine coupling. Longitudinal 
+analyses further revealed persistent, site-dependent disruptions in microbial diversity following 
+antibiotic exposure, most notably in the gut microbiome. Collectively, these results demonstrate 
+that microbiome–immune crosstalk is governed predominantly by site-specific ecological 
+constraints rather than health status alone, underscoring the need for anatomically 
+contextualized frameworks in microbiome-based diagnostics and therapeutic development. 
 
 ## Data Sources
 
