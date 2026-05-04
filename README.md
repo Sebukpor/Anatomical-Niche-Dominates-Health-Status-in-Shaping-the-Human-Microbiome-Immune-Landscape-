@@ -8,6 +8,7 @@ analyzed a large-scale, multi-site dataset comprising 1,813 samples from four bo
 profiling. Using compositional data analysis with Bayesian–multiplicative zero replacement, 
 permutation-derived correlation thresholds, and machine-learning–based classification, we 
 quantified the determinants of microbiome immune architecture across sites and clinical states. 
+
 Anatomical site emerged as the dominant driver of microbial–immune variation, explaining 
 substantially more variance than health status (PERMANOVA 𝑅2 ≈ 0.28vs. 0.08). Health-state 
 classification performance exhibited a clear site-dependent gradient (stool > oral > nasal > skin), 
@@ -21,6 +22,7 @@ engagement with multiple inflammatory mediators (SDF1A 𝑟 = 0.380, IL1A 𝑟 =
 positive relationships with Bacillus (𝑟 = 0.308) and Staphylococcus (𝑟 = 0.280); and oral sites 
 harbored the strongest individual association observed across all habitats, a negative correlation 
 between Butyrivibrio and PDGFBB (𝑟 = −0.437, 𝑝 = 3.46 × 10−22). 
+
 Differential abundance analyses identified Barnesiella and Odoribacter depletion in stool
 associated clinical states and Staphylococcus expansion in nasal dysbiosis, whereas oral and skin 
 sites exhibited minimal taxonomic shifts despite pronounced cytokine coupling. Longitudinal 
