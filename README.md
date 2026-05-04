@@ -1,5 +1,6 @@
 # Anatomical Niche Dominates Health Status in Shaping the Human Microbiome-Immune Landscape 
 Abstract 
+
 The human microbiome engages in dynamic, bidirectional interactions with the host immune 
 system across diverse anatomical niches, yet the relative influence of anatomical context versus 
 health status on microbial–immune organization remains incompletely resolved. Here, we 
